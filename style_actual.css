@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  background: #f6f6fa;
+  padding: 2.5em;
+}
+
+h1 {
+  color: #000;
+  font-size: 2.8125em;
+  font-style: normal;
+  font-weight: 700;
+}
+
+h2 {
+  color: #000;
+  font-size: 1.375em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.6875em;
+}
+
+ul {
+  padding-left: 2em;
+  color: #595959;
+  font-size: 0.875em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+.main-wrapp {
+  background: #fff;
+}
+
+.main-wrapp__main-header {
+  display: inline-block;
+  position: absolute;
+  left: 35em;
+  top: 5em;
+}
+
+.main-header > hgroup > p {
+  color: #000;
+  font-size: 0.875em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.0625em;
+}
+
+.aw2 > section:nth-child(2) {
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+}
+
+.aw2 > section:nth-child(2) > ul a {
+  color: #005fff;
+  font-size: 0.875em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+  text-decoration-line: underline;
+  list-style: number;
+}
+
+.p-project--list {
+  list-style: number;
+  padding-left: 1em;
+}
+
+.p-project--list a {
+  padding-left: 1em;
+}
+
+.p-project--list span {
+  color: #595959;
+  font-size: 0.875em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.awesome {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  margin-top: 1.33em;
+}
+
+.skills {
+  margin-right: 10em;
+  padding-top: 2.5em;
+  padding-left: 2.5em;
+  background: #e0ebfe;
+}
+.skills section > h2 {
+  margin-top: 1.8182em;
+}
+
+.aw2 {
+  position: relative;
+  bottom: 17em;
+  right: 3.5em;
+  top: 6em;
+}
+
+.p-education {
+  color: #595959;
+  font-size: 0.875em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+dl {
+  margin-top: 0.5em;
+}
+
+dt {
+  color: #000;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25em;
+  margin-bottom: 0.5em;
+}
+
+.name-company {
+  color: #6d9bf5;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25em;
+}
+
+.work-time {
+  color: #a8a8a8;
+  font-size: 0.75em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0.9375em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+dd {
+  color: #595959;
+  font-size: 0.875em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+dd > ul {
+  margin-bottom: 0.75em;
+}
+
+.c-black {
+  color: #000;
+  font-size: 0.75em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0.9375em;
+}
+
+.aw2 > section:nth-child(4) > h2 {
+  color: #000;
+  font-size: 1.375em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.aw2 > section:nth-child(4) p:nth-child(2),
+p:nth-child(3),
+p:nth-child(4) {
+  margin-top: 0.5em;
+}
+
+.special {
+  color: #000;
+  font-size: 0.875em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0.5em;
+}
+
+.p-contact {
+  color: #161d2a;
+  font-size: 1.375em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 2.5em;
+}
+
+.p-contact--info {
+  color: #161d2a;
+  font-family: Montserrat;
+  font-size: 0.875em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5em;
+}
+
+.p-contact--info a {
+  margin-left: 0.5em;
+}
+/* @media (max-width: 760.5em) {
+  body {
+    padding: 1em;
+  }
+  h1 {
+    font-size: 1em;
+    line-height: normal;
+  }
+  hgroup > p {
+    font-size: 0.5em;
+  }
+  .main-wrapp {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-wrapp__main-header {
+    display: inline-block;
+    position: inherit;
+  }
+  .awesome {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .skills {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+} */
