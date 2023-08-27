@@ -6,7 +6,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
-  background: #f6f6fa;
+  background-color: #f6f6fa;
   padding: 2.5em;
 }
 
@@ -34,7 +34,7 @@ ul {
   line-height: 1.5em;
 }
 .main-wrapp {
-  background: #fff;
+  background-color: #fff;
 }
 
 .main-wrapp__main-header {
